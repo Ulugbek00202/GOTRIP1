@@ -196,6 +196,10 @@
 	.contact_text {
 		margin-top: 15px;
 	}
+
+	.footer_text {
+		margin-top: 50px;
+	}
 }
 
 @media (max-width: 500px) {
@@ -237,6 +241,10 @@
 
 	.banner_button {
 		padding: 10px 60px;
+	}
+
+	.footer_text {
+		margin-top: 40px;
 	}
 }
 
@@ -282,5 +290,21 @@
 	.about_content_text h2,
 	.about_content_text h3 {
 		width: 250px;
+	}
+
+	.catalog_content {
+		margin-top: 15px;
+	}
+
+	.catalog_content_item h3 {
+		margin-top: 15px;
+	}
+
+	.footer_item {
+		padding-top: 30px;
+	}
+
+	.footer_text {
+		margin-top: 30px;
 	}
 }
