@@ -24,7 +24,6 @@ main {
 }
 
 .wrapper {
-	overflow: hidden;
 }
 
 header {
@@ -100,6 +99,7 @@ nav ul li a:hover::after {
 	font-size: 16px;
 	font-weight: 400;
 	line-height: 18.96px;
+	color: #b4436c;
 }
 
 .btn {
@@ -173,6 +173,12 @@ nav ul li a:hover::after {
 	font-size: 18px;
 	font-weight: 600;
 	border-radius: 30px;
+	transition: 0.5s;
+}
+
+.banner_button:hover {
+	background-color: aqua;
+	color: red;
 }
 
 main {
@@ -309,23 +315,19 @@ footer {
 	padding-top: 40px;
 }
 
-.footer_item ul {
+.footer_item_content {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	gap: 30px;
 }
 
-.footer_item ul li a {
+.footer_item_content a {
 	color: #fff;
 	font-family: 'Rubik', 'sans-serif';
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 18.96px;
-}
-
-.footer_item ul li {
-	align-items: center;
 }
 
 .footer_text {
